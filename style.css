@@ -1,0 +1,60 @@
+#clockcontainer {
+    position: relative;
+    /* ye krne par responsive check krte time hands pe koi farak nhi pdega uska lenght change nhi hoga */
+    /* border: 2px solid red; */
+    background-color: aqua;
+    /* height: 40vw;
+    width: 40vw; */
+    height: 440px;
+    width: 440px;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+    margin: auto;
+}
+
+#hour,#minute,#second {
+    position: absolute;
+    background: black;
+    border-radius: 20px;
+    transform-origin: bottom;
+
+
+}
+
+#hour {
+    height: 16.4%;
+    width: 7px;
+    top: 32.5%;
+    left: 49.05%;
+    opacity: 0.9;
+   
+    /* display: none; */
+
+
+
+}
+
+#minute {
+
+    height: 27%;
+    width: 6px;
+    top: 20.5%;
+    left: 49.2%;
+    opacity: 0.8;
+    
+    /* display: none; */
+    
+
+
+
+}
+
+#second {
+    height: 31%;
+    width: 3.5px;
+    top: 16.1%;
+    left: 49.48%;
+    opacity: 0.8;
+
+    /* display: none; */
+}
